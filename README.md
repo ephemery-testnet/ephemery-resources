@@ -58,3 +58,6 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - Improving and finishing specs 
 - [ ] Cross client implementation 
     - Testing all client combos, ACD discussion
+
+
+![](./bttg.png)
