@@ -19,13 +19,16 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 ### RPC providers
 
-- https://rpc.bordel.wtf/test
+- https://rpc.bordel.wtf/test (geth)
+- https://otter.bordel.wtf/erigon 
 
 ### Faucets
 
 - https://ephemery-faucet.pk910.de/
 
 ### Block explorers
+
+- https://otter.bordel.wtf/
 
 ### Beacon explorers
 
@@ -37,9 +40,16 @@ To run a node and participate in the network, use setup from [this repository](h
 
 ### Contribute 
 
-Help us by participating in the network and identifying issues caused by the ephemeral setup. Try running the node, using your wallet and other infrastracture. 
+Contribute by participating in the network and identifying issues caused by the ephemeral setup. You can help a lot by testing features and infrastracture which might break during the reset. Here are few ideas for general testing:
+  - Run a node, especially client which is not tested yet
+  - Add validators, monitor attestations, proposed blocks, slashing issues
+  - Use your wallet, find out how it behaves after the reset, how it handles different network ID from same RPC
+  - Deploy dapps, try your favorite developer tooling 
+  - Run infrastracture, explorers, etc
+  - Reach out with your own ideas for testing
 
-Join discussion in [Matrix room](https://matrix.to/#/#staker-testnet:matrix.org). 
+Feel free to open issue in this repository with your findings and ideas. And feel free to join the discussion in [Matrix room](https://matrix.to/#/#staker-testnet:matrix.org). 
+
 
 ## Roadmap
 
