@@ -29,8 +29,11 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 ### Block explorers
 
 - https://otter.bordel.wtf/
+- https://explorer.ephemery.pk910.de/
 
 ### Beacon explorers
+
+- https://beaconchain.ephemery.pk910.de/
 
 ## Resources and contributing
 
