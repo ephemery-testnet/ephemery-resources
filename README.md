@@ -12,8 +12,8 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337524             |
-| Iteration number | 25                  |
+| Network ID       | 1337525             |
+| Iteration number | 26                  |
 | Rollback period  | 2 days              |
 | Next rollback    | Nov 29 19:00:00 UTC |
 
@@ -43,7 +43,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 
 The network is currently in its early stages, it runs as a small network with a manual reset mechanism. Each reset changes network parameters and requires a new genesis. Setup and reset mechanism is coordinated via [this repository](https://github.com/pk910/test-testnet-repo). Each release contains values for the new release. 
 
-To run a node and participate in the network, use setup from [this repository](https://github.com/pk910/test-testnet-scripts). You have to modify the `retention.sh` script to suit your setup and run it as a cron job or in a loop. 
+To run a node and participate in the network, use setup from [this repository](https://github.com/pk910/test-testnet-scripts). There are various deployment options, you can either use a [Docker setup](https://github.com/pk910/test-testnet-scripts#docker), cloud-init script or manually modify the `retention.sh` script to suit your system and run it as a cron job.
 
 ### Contribute 
 
