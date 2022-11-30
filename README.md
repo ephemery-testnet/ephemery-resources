@@ -15,7 +15,7 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 | Network ID       | 1337525             |
 | Iteration number | 26                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Nov 29 19:00:00 UTC |
+| Next rollback    | Dec 1st 19:00:00 UTC|
 
 ### Landing page
 
