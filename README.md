@@ -45,6 +45,8 @@ The network is currently in its early stages, it runs as a small network with a 
 
 To run a node and participate in the network, use setup from [this repository](https://github.com/pk910/test-testnet-scripts). There are various deployment options, you can either use a [Docker setup](https://github.com/pk910/test-testnet-scripts#docker), cloud-init script or manually modify the `retention.sh` script to suit your system and run it as a cron job. There are also [instructions for manually setting up a node](https://github.com/pk910/test-testnet-scripts#manual-deployment). 
 
+Checkout [current version of specs](https://notes.ethereum.org/@MarioHavel/testnet-specs) for client implementation and feel free to provide feedback. 
+
 ### Contribute 
 
 Contribute by participating in the network and identifying issues caused by the ephemeral setup. You can help a lot by testing features and infrastracture which might break during the reset. Here are few ideas for general testing:
@@ -66,10 +68,11 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
 - [x] Private network with manual reset mechanism
     - Using external script to reset the network
     - A small private chain was created to identify feasibility issues and to stabilize the devops setup.
-- [ ] Public network with manual reset mechanism
+- [x] Public network with manual reset mechanism
     - Stable network open to the public and wider debugging, simplifing node/validator setup
-- [ ] Creating network specifications
+- [ ] Creating general specifications for automatically resetted ephemral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
+    - [Specs draft](https://notes.ethereum.org/@MarioHavel/testnet-specs)
 - [ ] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
