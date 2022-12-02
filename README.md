@@ -1,6 +1,6 @@
 # Ephemeral Testnet
 
-The objective of this effort is to create the first ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
+The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
 ## Proposal
 
@@ -70,7 +70,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - A small private chain was created to identify feasibility issues and to stabilize the devops setup.
 - [x] Public network with manual reset mechanism
     - Stable network open to the public and wider debugging, simplifing node/validator setup
-- [ ] Creating general specifications for automatically resetted ephemral testnet 
+- [ ] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](https://notes.ethereum.org/@MarioHavel/testnet-specs)
 - [ ] Preliminary client implementation work 
