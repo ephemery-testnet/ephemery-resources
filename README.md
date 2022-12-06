@@ -12,10 +12,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337526             |
-| Iteration number | 28                  |
+| Network ID       | 1337527             |
+| Iteration number | 29                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Dec 5 19:00:00 UTC  |
+| Next rollback    | Dec 7 19:00:00 UTC  |
 
 ### Landing page
 
@@ -45,7 +45,7 @@ The network is currently in its early stages, it runs as a small network with a 
 
 To run a node and participate in the network, use setup from [this repository](https://github.com/pk910/test-testnet-scripts). There are various deployment options, you can either use a [Docker setup](https://github.com/pk910/test-testnet-scripts#docker), cloud-init script or manually modify the `retention.sh` script to suit your system and run it as a cron job. There are also [instructions for manually setting up a node](https://github.com/pk910/test-testnet-scripts#manual-deployment). 
 
-Checkout [current version of specs](https://notes.ethereum.org/@MarioHavel/testnet-specs) for client implementation and feel free to provide feedback. 
+Checkout [current version of specs](./specs.md) for client implementation and feel free to provide feedback. 
 
 ### Contribute 
 
@@ -72,7 +72,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - Stable network open to the public and wider debugging, simplifing node/validator setup
 - [ ] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
-    - [Specs draft](https://notes.ethereum.org/@MarioHavel/testnet-specs)
+    - [Specs draft](./specs.md)
 - [ ] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
