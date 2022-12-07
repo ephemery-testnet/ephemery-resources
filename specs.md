@@ -19,7 +19,7 @@ This approach is based on data gathered from public automatically resetted netwo
 
 ### Genesis 
 
-With each reset, network starts again from a new genesis. The new genesis is deterministically created based on the previous one. Main changes in the genesis are chainId, forkVersion and timestamp. 
+With each reset, network starts again from a new genesis. The new genesis is deterministically created based on the previous one. Main changes in the genesis are chainId, timestamp and the withdrawal cresentials of the first validator. 
 
 At the very begining, in the first iteration, `period_0`, network starts with `genesis_0` which is hardcoded in the client like any other predefined network. However, during the client start, client does not initiatilize this genesis but rather builds a new one based on it. This new genesis derived from the `genesis_0` will be used to run the current network. 
 
@@ -33,11 +33,10 @@ Given known `period`, client can calculate the number lifecycle iterantions from
     * `genesis_timestamp` = `period` * `i` + `genesis_0.timestamp`
 * Current EL ChainId:
     * `chainId` = `genesis_0.chainId` + `i`
-* Current CL ForkVersions:
-    * `GENESIS_FORK_VERSION` = `genesis_0.GENESIS_FORK_VERSION` + `i`
-    * `ALTAIR_FORK_VERSION` = `genesis_0.ALTAIR_FORK_VERSION` + `i`
-    * `BELLATRIX_FORK_VERSION` = `genesis_0.BELLATRIX_FORK_VERSION` + `i`
-    * `CAPELLA_FORK_VERSION` = `genesis_0.CAPELLA_FORK_VERSION` + `i`
+
+In order to keep the `ForkVersions` of the network static for better tooling support, the withdrawal credentials of the first validator in the validator set need to be overridden by a calculated value (this way there is still a unique `ForkDigest` for each iteration).
+* `genesis.validators[0].withdrawal_credentials` = `0x0100000000000000000000000000000000000000000000000000000000000000` + `i`
+* `genesis.genesis_validators_root` =  `hash_tree_root(genesis.validators)`
 
 It's up to discussion how to trigger these functions during the client start and whether information about the testnet should be somehow encoded in the genesis or stored elsewhere in the client. 
 
