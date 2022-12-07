@@ -78,14 +78,3 @@ Genesis Validators => Epochs until < 66% majority
 Proposal: 2015102100
 ```
 
-- ForkVersions
-    - Iteration starts from the predefined values.
-    - Clients must add the iteration number to the predefined values.
-    - Shouldn't collide with any other existing CL testnet to prevent slashings
-```
-Proposal: (unique prefix & last 16 bit for iteration number)
-`GENESIS_FORK_VERSION` = 0x10080000
-`ALTAIR_FORK_VERSION` = 0x20080000
-`BELLATRIX_FORK_VERSION` = 0x30080000
-`CAPELLA_FORK_VERSION` = 0x40080000
-```
