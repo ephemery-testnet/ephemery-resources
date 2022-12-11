@@ -12,10 +12,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337529             |
-| Iteration number | 31                  |
+| Network ID       | 1337530             |
+| Iteration number | 32                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Dec 11 19:00:00 UTC  |
+| Next rollback    | Dec 13 19:00:00 UTC  |
 
 ### Landing page
 
@@ -28,6 +28,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 
 ### Faucets
 
+- https://faucet.bordel.wtf/
 - https://ephemery-faucet.pk910.de/
 
 ### Block explorers
