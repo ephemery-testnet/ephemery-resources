@@ -25,6 +25,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 
 - https://rpc.bordel.wtf/test (geth)
 - https://otter.bordel.wtf/erigon 
+- https://eth.ephemeral.zeus.fyi (lighthouse-geth, full beacon)
 
 ### Faucets
 
