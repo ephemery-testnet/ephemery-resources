@@ -1,4 +1,4 @@
-# Ephemeral Testnet
+`# Ephemeral Testnet
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
@@ -12,10 +12,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337532             |
-| Iteration number | 34                  |
+| Network ID       | 1337537             |
+| Iteration number | 39                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Dec 17 19:00:00 UTC  |
+| Next rollback    | Dec 27 19:00:00 UTC  |
 
 ### Landing page
 
@@ -71,7 +71,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - A small private chain was created to identify feasibility issues and to stabilize the devops setup.
 - [x] Public network with manual reset mechanism
     - Stable network open to the public and wider debugging, simplifing node/validator setup
-- [ ] Creating general specifications for automatically reset ephemeral testnet 
+- [x] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](./specs.md)
 - [ ] Preliminary client implementation work 
