@@ -12,8 +12,8 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337539             |
-| Iteration number | 41                  |
+| Network ID       | 1337544             |
+| Iteration number | 46                  |
 | Rollback period  | 2 days              |
 | Next rollback    | Dec 31 19:00:00 UTC  |
 
