@@ -12,10 +12,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337551             |
-| Iteration number | 53                  |
+| Network ID       | 1337552             |
+| Iteration number | 54                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Jan 24 19:00:00 UTC |
+| Next rollback    | Jan 26 19:00:00 UTC |
 
 ### Landing page
 
@@ -40,6 +40,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 ### Beacon explorers
 
 - https://beaconchain.ephemery.pk910.de/
+- https://checkpointz.bordel.wtf/ (Checkpoint sync) 
 
 ## Resources and contributing
 
