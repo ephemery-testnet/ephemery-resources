@@ -25,7 +25,7 @@ At the very beginning of testnet existence, in the first iteration, `period 0`, 
 
 Given a known `period` (the length of time network instance will run), the client can calculate the number of lifecycle iterations from `genesis_0` to the current one and create a new genesis with latest parameters. Always, when the client starts with an option of ephemeral testnet, it checks the current genesis timestamp and identifies whether it's older than `timestamp + period`, at which point it triggers generation of a new genesis.
 
-New genesis needs to be created and correspond in both EL and CL client. 
+New genesis needs to be created and correspond in both EL and CL client. Manual implementation of this mechanism can be found in [this script](https://hackmd.io/@jimmygchen/rJw2Zjl2j). 
 
 #### Execution client
 
