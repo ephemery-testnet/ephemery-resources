@@ -1,12 +1,16 @@
 # Ephemeral Testnet
 
+
+**Shapella hard fork is scheduled for epoch 5 in the upcoming iteration #60. All later iterations will be supporting Capella/Shanghai. Update your clients to [versions from Zhejiang testnet](https://notes.ethereum.org/@launchpad/zhejiang#Which-versionbranch-do-I-use).**
+
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
 ## Proposal
 
 An ephemeral testnet is a single network that rolls back to the genesis after a set period of time. This kind of network is focused on short term and heavy testing usecases. The purpose of this is also to avoid problems like insufficient testnet funds, inactive validators, state bloat, and similar issues faced by long-running testnets.
 
-Learn more about the idea in the [original proposal](https://notes.ethereum.org/@mario-havel/stakers-testnet). 
+Learn more about the idea in the [original proposal](https://notes.ethereum.org/@mario-havel/stakers-testnet) and [specification](/specs.md). 
+
 
 ## Meta, network info
 
@@ -15,7 +19,7 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 | Network ID       | 1337557             |
 | Iteration number | 59                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Jan 05 19:00:00 UTC |
+| Next rollback    | Feb 05 19:00:00 UTC |
 
 ### Landing page
 
