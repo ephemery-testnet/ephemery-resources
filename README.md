@@ -1,7 +1,7 @@
 # Ephemeral Testnet
 
 
-**Shapella hard fork is scheduled for epoch 5 in the upcoming iteration #60. All later iterations will be supporting Capella/Shanghai. Update your clients to [versions from Zhejiang testnet](https://notes.ethereum.org/@launchpad/zhejiang#Which-versionbranch-do-I-use).**
+**Starting at iteration #60, Shanghai/Capella hard fork is scheduled for epoch 5 in every upcoming iteration. Update your clients to [versions from Zhejiang testnet](https://notes.ethereum.org/@launchpad/zhejiang#Which-versionbranch-do-I-use).**
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337557             |
-| Iteration number | 59                  |
+| Network ID       | 1337558             |
+| Iteration number | 60                  |
 | Rollback period  | 2 days              |
-| Next rollback    | Feb 05 19:00:00 UTC |
+| Next rollback    | Feb 07 19:00:00 UTC |
 
 ### Landing page
 
@@ -45,6 +45,11 @@ https://ephemery.pk910.de/ (add RPC with single click)
 
 - https://beaconchain.ephemery.pk910.de/
 - https://checkpointz.bordel.wtf/ (Checkpoint sync) 
+
+## Validators
+
+- [Launchpad](https://ephemery.launchpad.remyroy.com/en/)
+- https://github.com/remyroy/staking-deposit-cli/releases/tag/v2.3.0.ephemery CLI
 
 ## Resources and contributing
 
