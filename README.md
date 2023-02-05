@@ -46,7 +46,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 - https://beaconchain.ephemery.pk910.de/
 - https://checkpointz.bordel.wtf/ (Checkpoint sync) 
 
-## Validators
+### Validators
 
 - [Launchpad](https://ephemery.launchpad.remyroy.com/en/)
 - https://github.com/remyroy/staking-deposit-cli/releases/tag/v2.3.0.ephemery CLI
@@ -85,6 +85,10 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
 - [x] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](./specs.md)
+    - [ ] Draft EIP
+- [ ] Automatic onchain infrastracture
+    - [x] Refuding validators
+    - [ ] Deploying primitives for daps
 - [ ] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
