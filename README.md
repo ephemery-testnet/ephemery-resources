@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 1337558             |
-| Iteration number | 60                  |
-| Rollback period  | 2 days              |
-| Next rollback    | Feb 07 19:00:00 UTC |
+| Network ID       | 39438062            |
+| Iteration number | 62                  |
+| Rollback period  | 7 days              |
+| Next rollback    | Feb 16 19:00:00 UTC |
 
 ### Landing page
 
@@ -88,7 +88,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - [ ] Draft EIP
 - [ ] Automatic onchain infrastracture
     - [x] Refuding validators
-    - [ ] Deploying primitives for daps
+    - [ ] Deploying primitives for dapps
 - [ ] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
