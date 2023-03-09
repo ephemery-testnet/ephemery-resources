@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 39438064            |
-| Iteration number | 64                  |
+| Network ID       | 39438066            |
+| Iteration number | 66                  |
 | Rollback period  | 7 days              |
-| Next rollback    | March 2 19:00:00 UTC |
+| Next rollback    | March 16 19:00:00 UTC |
 
 ### Landing page
 
