@@ -1,7 +1,7 @@
 # Ephemeral Testnet
 
 
-**Starting at iteration #60, Shanghai/Capella hard fork is scheduled for epoch 5 in every upcoming iteration. Update your clients to [versions from Zhejiang testnet](https://notes.ethereum.org/@launchpad/zhejiang#Which-versionbranch-do-I-use).**
+**Ephemery is supporting Shapella since iteration 60. Make sure to run Shapella compatible [version of your client](https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement).**
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 39438066            |
-| Iteration number | 66                  |
+| Network ID       | 39438060            |
+| Iteration number | 69                  |
 | Rollback period  | 7 days              |
-| Next rollback    | March 16 19:00:00 UTC |
+| Next rollback    | April 6 19:00:00 UTC |
 
 ### Landing page
 
