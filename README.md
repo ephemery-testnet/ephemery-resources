@@ -19,7 +19,7 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 | Network ID       | 39438070            |
 | Iteration number | 70                  |
 | Rollback period  | 7 days              |
-| Next rollback    | April 6 19:00:00 UTC |
+| Next rollback    | April 13 19:00:00 UTC |
 
 ### Landing page
 
