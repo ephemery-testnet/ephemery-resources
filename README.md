@@ -16,8 +16,8 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 39438060            |
-| Iteration number | 69                  |
+| Network ID       | 39438070            |
+| Iteration number | 70                  |
 | Rollback period  | 7 days              |
 | Next rollback    | April 6 19:00:00 UTC |
 
@@ -44,6 +44,7 @@ https://ephemery.pk910.de/ (add RPC with single click)
 ### Beacon explorers
 
 - https://beaconchain.ephemery.pk910.de/
+- https://ephemery.info/
 - https://checkpointz.bordel.wtf/ (Checkpoint sync) 
 
 ### Validators
