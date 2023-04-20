@@ -39,11 +39,11 @@ https://ephemery.pk910.de/ (add RPC with single click)
 ### Block explorers
 
 - https://otter.bordel.wtf/
-- https://explorer.ephemery.pk910.de/
+- https://explorer.ephemery.dev/
 
 ### Beacon explorers
 
-- https://beaconchain.ephemery.pk910.de/
+- https://beaconchain.ephemery.dev/
 - https://ephemery.info/
 - https://checkpointz.bordel.wtf/ (Checkpoint sync) 
 

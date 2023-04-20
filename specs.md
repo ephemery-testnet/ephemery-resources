@@ -15,7 +15,7 @@ There are two levels of how a client implementation can support this testnet.
     * This would require also support of the Reset feature
     * Needed for running infrastructure, genesis validators and bootnodes
 
-This approach is based on data gathered from public automatically resetted network [Ephemery](https://ephemery.pk910.de/) and aims to be fully compatible with it. 
+This approach is based on data gathered from public automatically resetted network [Ephemery](https://ephemery.dev/) and aims to be fully compatible with it. 
 
 ### Genesis 
 
