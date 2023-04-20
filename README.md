@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 39438070            |
-| Iteration number | 70                  |
+| Network ID       | 39438072            |
+| Iteration number | 72                  |
 | Rollback period  | 7 days              |
-| Next rollback    | April 13 19:00:00 UTC |
+| Next rollback    | April 27 19:00:00 UTC |
 
 ### Landing page
 
@@ -86,7 +86,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
 - [x] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](./specs.md)
-    - [x] Draft EIP
+    - [x] [Draft EIP](https://github.com/ethereum/EIPs/pull/6916)
 - [ ] Automatic onchain infrastracture
     - [x] Refuding validators
     - [ ] Deploying primitives for dapps
