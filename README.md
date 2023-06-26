@@ -16,10 +16,10 @@ Learn more about the idea in the [original proposal](https://notes.ethereum.org/
 
 |                  | Current value       |
 | ---------------- | ------------------- |
-| Network ID       | 39438078            |
-| Iteration number | 78                  |
+| Network ID       | ![ChainId](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.chainid&label=%20&color=gray) |
+| Iteration number | ![Iteration](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.iteration&label=%20&color=gray) |
 | Rollback period  | 7 days              |
-| Next rollback    | June 15 19:00:00 UTC |
+| Next rollback    | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.resetTimeReadable&label=%20&color=gray) |
 
 ### Landing page
 
