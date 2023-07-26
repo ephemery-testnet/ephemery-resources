@@ -1,7 +1,6 @@
 # Ephemeral Testnet
 
-
-**Ephemery is supporting Shapella since iteration 60. Make sure to run Shapella compatible [version of your client](https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement).**
+![](./bttg.png)
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
@@ -75,7 +74,7 @@ Feel free to open issue in this repository with your findings and ideas. And fee
 
 ## Roadmap
 
-Ephemeral testnet needs a lot of research and development to be stable and widely usable. Here is a simple roadmap and current progress:
+Ephemeral testnet needs a lot of research and development to be stable and widely usable. Here is a simple roadmap overview, for details on current tasks, check tracking issues.
 
 - [x] Proposal and initial discussion
 - [x] Private network with manual reset mechanism
@@ -87,6 +86,7 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](./specs.md)
     - [x] [Draft EIP](https://github.com/ethereum/EIPs/pull/6916)
+    - [ ] Validating specs in EIP
 - [ ] Automatic onchain infrastracture
     - [x] Refuding validators
     - [ ] Deploying primitives for dapps
@@ -96,5 +96,3 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
 - [ ] Cross client implementation 
     - Testing all client combos, ACD discussion
 
-
-![](./bttg.png)
