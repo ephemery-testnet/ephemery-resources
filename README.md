@@ -8,8 +8,11 @@ The objective of this effort is to create the first automatically reset ephemera
 
 An ephemeral testnet is a single network that rolls back to the genesis after a set period of time. This kind of network is focused on short term and heavy testing usecases. The purpose of this is also to avoid problems like insufficient testnet funds, inactive validators, state bloat, and similar issues faced by long-running testnets.
 
-Learn more about the idea in the [original proposal](https://notes.ethereum.org/@mario-havel/stakers-testnet) and [specification](/specs.md). 
-
+More resources: 
+- [original proposal](https://notes.ethereum.org/@mario-havel/stakers-testnet)
+- [specification](/specs.md)
+- [EthPrague talk](https://www.youtube.com/watch?v=HUuR1k25-3g)
+- [Blog article](https://medium.com/coinmonks/new-testing-environment-for-ethereum-stakers-e271d1f954eb)
 
 ## Meta, network info
 
