@@ -47,7 +47,8 @@ https://ephemery.dev/ (add RPC with single click)
 
 - https://beaconchain.ephemery.dev/
 - https://ephemery.info/
-- https://checkpointz.bordel.wtf/ (Checkpoint sync) 
+- https://checkpointz.bordel.wtf/ (Checkpoint sync)
+- https://beaconlight.ephemery.dev/
 
 ### Validators
 
