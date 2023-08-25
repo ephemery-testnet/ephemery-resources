@@ -37,6 +37,7 @@ https://ephemery.dev/ (add RPC with single click)
 
 - https://faucet.bordel.wtf/
 - https://ephemery-faucet.pk910.de/
+- https://api-faucet.bordel.wtf/
 
 ### Block explorers
 
