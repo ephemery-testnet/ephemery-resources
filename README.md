@@ -56,6 +56,14 @@ https://ephemery.dev/ (add RPC with single click)
 - [Launchpad](https://launchpad.ephemery.dev/)
 - https://github.com/remyroy/staking-deposit-cli/releases/tag/v2.3.0.ephemery CLI
 
+## Run a node
+
+At this moment, official client releases don't include predefined Ephemery testnet. To connect the client to Ephemery network, it has to be done manualy. 
+
+Download latest Ephemery parameters from its [release](https://github.com/ephemery-testnet/ephemery-genesis/releases/) and point your client to it like with any custom network. 
+
+Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
+
 ## Resources and contributing
 
 The network is currently in its early stages, it runs as a small network with a manual reset mechanism. Each reset changes network parameters and requires a new genesis. Setup and reset mechanism is coordinated via [this repository](https://github.com/ephemery-testnet/ephemery-genesis). Each release contains values for the new release. 
