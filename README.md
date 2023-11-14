@@ -87,7 +87,7 @@ Feel free to open issue in this repository with your findings and ideas. And fee
 
 ## Roadmap
 
-Ephemeral testnet needs a lot of research and development to be stable and widely usable. Here is a simple roadmap overview, for details on current tasks, check tracking issues.
+Ephemeral testnet needs a lot of research and development to be stable and widely usable. Here is a simple roadmap overview, for details on current tasks, check the [tracking issue](https://github.com/ephemery-testnet/ephemery-resources/issues). 
 
 - [x] Proposal and initial discussion
 - [x] Private network with manual reset mechanism
@@ -98,14 +98,15 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
 - [x] Creating general specifications for automatically reset ephemeral testnet 
     - Discussion about implementation details and specifications based on data gathered from the network with manual resets
     - [Specs draft](./specs.md)
-    - [x] [Draft EIP](https://github.com/ethereum/EIPs/pull/6916)
-    - [ ] Validating specs in EIP
-- [ ] Automatic onchain infrastracture
+    - [x] [EIP](https://eips.ethereum.org/EIPS/eip-6916) in review
+    - [x] Validating specs in EIP
+- [x] Automatic onchain infrastracture
     - [x] Refuding validators
-    - [ ] Deploying primitives for dapps
-- [ ] Preliminary client implementation work 
+    - [x] Deploying primitives for dapps
+- [x] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
 - [ ] Cross client implementation 
-    - Testing all client combos, ACD discussion
+    - Testing all client combos
+    - ACD discussion between client teams
 
