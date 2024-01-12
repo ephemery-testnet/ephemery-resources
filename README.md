@@ -1,6 +1,9 @@
 # Ephemeral Testnet
 
+## ⚠️ Ephemery testnet is forking to Deneb starting from iteration 111 on January 18 2024. Make sure your clients are updated to [latest releases](https://blog.ethereum.org/2024/01/10/goerli-dencun-announcement) supporting it.
+
 ![](./bttg.png)
+
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
