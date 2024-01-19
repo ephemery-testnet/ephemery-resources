@@ -64,8 +64,18 @@ https://ephemery.dev/ (add RPC with single click)
 At this moment, official client releases don't include predefined Ephemery testnet. To connect the client to Ephemery network, it has to be done manualy. 
 
 Download latest Ephemery parameters from its [release](https://github.com/ephemery-testnet/ephemery-genesis/releases/) and point your client to it like with any custom network. 
-
-Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
+```
+wget https://github.com/ephemery-testnet/ephemery-genesis/releases/download/ephemery-111/testnet-all.tar.gz
+mkdir ephemery && tar -xzf testnet-all.tar.gz -C ephemery
+```
+Example setup for geth and lighthouse. First initialize geth genesis and then run clients with configuration pointing to downloaded testnet files and variables:
+```
+geth --datadir geth-ephemery init ephemery/genesis.json 
+source ephemery/nodevars_env.txt
+geth --datadir geth-ephemery --authrpc.jwtsecret=/tmp/jwt --bootnodes $BOOTNODE_ENODE 
+lighthouse bn -t ephemery --execution-endpoint http://localhost:8551 --execution-jwt=/tmp/jwt --boot-nodes=$BOOTNODE_ENR_LIST
+```
+[Lodestar](https://github.com/ChainSafe/lodestar) supports Ephemery natively without extra arguments. Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
 
 ## Resources and contributing
 
