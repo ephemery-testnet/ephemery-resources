@@ -12,4 +12,4 @@
 0x3a002D4b6ad2Ff081d235242c2e3B3C16cE8441D:1000000ETH # ladidan
 
 # auto deployment system
-0x8A2E5011a2dc3b0bD62f630b334776c36FE74508:1000000ETH # auto deployer wallet 1
+0xdb98899a426Cf7fDA3D9102383df8EFB49b7f637:1000000ETH # auto deployer wallet 1
