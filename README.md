@@ -61,7 +61,7 @@ https://ephemery.dev/ (add RPC with single click)
 ### Validators
 
 - [Launchpad](https://launchpad.ephemery.dev/)
-- https://github.com/remyroy/staking-deposit-cli/releases/tag/v2.3.0.ephemery CLI
+- [ethstaker-deposit-cli](https://github.com/remyroy/ethstaker-deposit-cli/releases/tag/v0.1-ephemery)
 
 ## Run a node
 
