@@ -1,7 +1,5 @@
 # Ephemeral Testnet
 
-## ⚠️ Ephemery testnet is forking to Deneb starting from iteration 111 on January 18 2024. Make sure your clients are updated to [latest releases](https://blog.ethereum.org/2024/01/10/goerli-dencun-announcement) supporting it.
-
 ![](./bttg.png)
 
 
@@ -23,7 +21,7 @@ More resources:
 | ---------------- | ------------------- |
 | Network ID       | ![ChainId](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.chainid&label=%20&color=gray) |
 | Iteration number | ![Iteration](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.iteration&label=%20&color=gray) |
-| Rollback period  | 7 days              |
+| Rollback period  | 28 days              |
 | Next rollback    | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fephemery.dev%2FlatestInfo.php&query=%24.resetTimeReadable&label=%20&color=gray) |
 
 ### Landing page
@@ -57,6 +55,7 @@ https://ephemery.dev/ (add RPC with single click)
 
 - https://checkpointz.bordel.wtf/
 - https://ephemery.beaconstate.ethstaker.cc/
+- https://checkpoint-sync.ephemery.ethpandaops.io/
 
 ### Validators
 
