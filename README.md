@@ -64,7 +64,7 @@ https://ephemery.dev/ (add RPC with single click)
 
 ## Run a node
 
-At this moment, official client releases don't include predefined Ephemery testnet. To connect the client to Ephemery network, it has to be done manualy. 
+At this moment, official client releases mostly don't include predefined Ephemery testnet. To connect the client to Ephemery network, it has to be done manualy. 
 
 Download latest Ephemery parameters from its [release](https://github.com/ephemery-testnet/ephemery-genesis/releases/) and point your client to it like with any custom network. 
 ```
@@ -79,6 +79,11 @@ geth --datadir geth-ephemery --authrpc.jwtsecret=/tmp/jwt --bootnodes $BOOTNODE_
 lighthouse bn -t ephemery --execution-endpoint http://localhost:8551 --execution-jwt=/tmp/jwt --boot-nodes=$BOOTNODE_ENR_LIST
 ```
 [Lodestar](https://github.com/ChainSafe/lodestar) supports Ephemery natively without extra arguments. Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
+
+This connects your fclient to the current Ephemery iteration. To connect to the latest iteration of the network after the client already ran a previous one, you need to use a different datadir or delete the existing one. 
+
+To keep up with the reset and run your node constantly switching to latest network, e.g. for running public infrastracture, use [retention script](https://github.com/ephemery-testnet/ephemery-scripts/blob/master/retention.sh).
+
 
 ## Resources and contributing
 
