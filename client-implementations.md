@@ -6,7 +6,7 @@ The aim of this doc is to track implementation work done so far to provide nativ
 
 | **Client**   | **Status** | **Contributor(s)** | **Notes**                  |
 |--------------|---------------------------|-----------------------|----------------------------|
-| **[Besu](https://besu.hyperledger.org/en/stable/)**     | PR under review               | @gconnect                    | - [x] Native support without extra arguments completed. <br> - [x] Genesis function implemented <br> - [ ] Genesis Reset Implementation <br> - [ ]Update Besu documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)      | 
+| **[Besu](https://besu.hyperledger.org/en/stable/)**     | PR under review               | @gconnect                    | - [x] Native support without extra arguments completed. <br> - [x] Genesis function implemented <br> - [ ] Genesis Reset Implementation <br> - [ ] Update Besu documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)      | 
 | **[Geth](https://geth.ethereum.org/)**     |Completed                 | @atkinsonholly                 |  - [Detail update](https://hackmd.io/@HOL/SJwLmrUmR)       |
 | **[Reth](https://reth.rs/)**     | Completed                | @T-ess                   | - [Detail update](https://hackmd.io/@teri-b/S1D6Np_Q6) |
 | **[Nethermind](https://www.nethermind.io/)**     | Not Started                | -                     | -                   |
