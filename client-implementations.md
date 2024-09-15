@@ -6,7 +6,7 @@ The aim of this doc is to track implementation work done so far to provide nativ
 
 | **Client**   | **Status** | **Contributor(s)** | **Notes**                  |
 |--------------|---------------------------|-----------------------|----------------------------|
-| **[Besu](https://besu.hyperledger.org/en/stable/)**     | PR under review               | @gconnect                    | - <input type="checkbox" checked/> Native support without extra arguments completed. <br> - <input type="checkbox" checked/> Genesis function implemented <br> - <input type="checkbox" /> Genesis Reset Implementation <br> - <input type="checkbox" /> Update Besu documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)      | 
+| **[Besu](https://besu.hyperledger.org/en/stable/)**     | PR under review               | @gconnect                    | - [x] Native support without extra arguments completed. <br> - [x] Genesis function implemented <br> - [ ] Genesis Reset Implementation <br> - [ ]Update Besu documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)      | 
 | **[Geth](https://geth.ethereum.org/)**     |Completed                 | @atkinsonholly                 |  - [Detail update](https://hackmd.io/@HOL/SJwLmrUmR)       |
 | **[Reth](https://reth.rs/)**     | Completed                | @T-ess                   | - [Detail update](https://hackmd.io/@teri-b/S1D6Np_Q6) |
 | **[Nethermind](https://www.nethermind.io/)**     | Not Started                | -                     | -                   |
@@ -18,7 +18,7 @@ The aim of this doc is to track implementation work done so far to provide nativ
 
 | **Client**   | **Status** | **Contributor(s)** | **Notes**                  | 
 |--------------|---------------------------|-----------------------|----------------------------|
-| **[Teku](https://consensys.io/teku)**     | Genesis Reset in-progress                | @gconnect                  | - <input type="checkbox" checked/> Native support without extra arguments merged. <br> - <input type="checkbox" checked/> Genesis function implemented <br> - <input type="checkbox" /> Genesis Reset Implementation in progress <br> - <input type="checkbox" /> Update documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)        | 
+| **[Teku](https://consensys.io/teku)**     | Genesis Reset in-progress                | @gconnect                  | - [x] Native support without extra arguments merged. <br> - [x] Genesis function implemented <br> - [ ] Genesis Reset Implementation in progress <br> - [ ] Update documentation <br> - [Detailed note](https://hackmd.io/@gconnect/BJVMDpX6R)        | 
 | **[Lodestar](https://lodestar.chainsafe.io/)** | In Completed                | @atkinsonholly                 |  - [Github Discussion](https://github.com/ChainSafe/lodestar/issues/6064) <br>  - [Development update]( https://hackmd.io/@HOL/Hyp4bXfV6)    |
 | **[Lighthouse](https://lighthouse.sigmaprime.io/)**| Completed                | @T-ess                 | - [Detail update](https://hackmd.io/@teri-b/S1D6Np_Q6)     |
 | **[Reth](https://reth.rs/)**     | Not Started                | -                     | -  | 
