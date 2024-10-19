@@ -65,7 +65,7 @@ https://ephemery.dev/ (add RPC with single click)
 ## Run a node
 
 ### Automated with Deployment Tools
-- [EthPillar: one-liner setup tool and node management TUI. ARM64 compatible. For Ephemery, choose Teku and Besu client pair.](https://www.coincashew.com/coins/overview-eth/ethpillar)
+- [EthPillar: one-liner setup tool and node management TUI. For Ephemery, choose Teku and Besu client pair.](http://ethpillar.coincashew.com)
 
 ### Manual Deployment:
 At this moment, official client releases mostly don't include predefined Ephemery testnet. To connect the client to Ephemery network, it has to be done manualy. 
