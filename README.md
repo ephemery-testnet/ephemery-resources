@@ -56,6 +56,7 @@ https://ephemery.dev/ (add RPC with single click)
 - https://checkpointz.bordel.wtf/
 - https://ephemery.beaconstate.ethstaker.cc/
 - https://checkpoint-sync.ephemery.ethpandaops.io/
+- https://beaconstate-ephemery.chainsafe.dev/
 
 ### Validators
 
