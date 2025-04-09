@@ -5,6 +5,9 @@
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
+> [!WARNING]
+> __Ephemery will activate Pectra hardfork on epoch 10 starting iteration 3943814, February 13 7PM UTC.__ Make sure to upgrade your clients and validators to latest Pectra release candidates! [Read more about the Pectra activation](#pectra).
+
 ## Proposal
 
 An ephemeral testnet is a single network that rolls back to the genesis after a set period of time. This kind of network is focused on short term and heavy testing usecases. The purpose of this is also to avoid problems like insufficient testnet funds, inactive validators, state bloat, and similar issues faced by long-running testnets.
@@ -56,6 +59,7 @@ https://ephemery.dev/ (add RPC with single click)
 - https://checkpointz.bordel.wtf/
 - https://ephemery.beaconstate.ethstaker.cc/
 - https://checkpoint-sync.ephemery.ethpandaops.io/
+- https://beaconstate-ephemery.chainsafe.dev/
 
 ### Validators
 
@@ -88,6 +92,15 @@ To keep up with the reset and run your node constantly switching to latest netwo
   - Choice of Nimbus/Nethermind or  Teku/Besu client pair
 
 - Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
+
+### Pectra
+
+Ephemery supports Pectra with iteration 3943814, February 13 7PM UTC. Starting with this iteration, Pectra is scheduled to activate in every upcoming iteration at epoch 10, around 8:14PM UTC. The first activation is before any other testnet, this might get bumpy but enables us to collect valuable testing data for client developers.
+
+To run a node or a validator on Ephemery, use a Pectra compatible client. Not all clients will have a stable Pectra release, you might have to use a release candidate for testing or compile the latest version manually. 
+
+As a staker, you will be able to test new features introduced in Pectra like validator aggregation thanks to [new MaxEB](https://eips.ethereum.org/EIPS/eip-7251). We increased the ETH payout in [faucets](https://faucet.bordel.wtf) to allow you to easily try this. 
+As a user or developer, you can explore new possibilites of [account abstraction](https://eip7702.io/) and other [upgrades coming in Pectra](https://ethereum.org/en/roadmap/pectra).
 
 ## Resources and contributing
 
