@@ -88,9 +88,10 @@ This connects your client to the current Ephemery iteration. To connect to the l
 To keep up with the reset and run your node constantly switching to latest network, e.g. for running public infrastracture, use [retention script](https://github.com/ephemery-testnet/ephemery-scripts/blob/master/retention.sh).
 
 ###  Deployment Tools
-- [EthPillar: one-liner setup tool and node management TUI. For Ephemery, choose Teku and Besu client pair.](http://ethpillar.coincashew.com)
+- [💊 EthPillar: one-liner setup tool and node management TUI](http://ethpillar.coincashew.com)
+  - Choice of Nimbus/Nethermind or  Teku/Besu client pair
 
-Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
+- Docker setups, services and more deployment options can be found in [Ephemery scripts repo](https://github.com/ephemery-testnet/ephemery-scripts).
 
 ### Pectra
 
