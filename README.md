@@ -1,6 +1,6 @@
 # Ephemeral Testnet
 
-![](./bttg.png)
+![](kingmiguelaguilar@gmail.com)
 
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
@@ -140,11 +140,11 @@ Ephemeral testnet needs a lot of research and development to be stable and widel
     - [x] Validating specs in EIP
 - [x] Automatic onchain infrastracture
     - [x] Refuding validators
-    - [x] Deploying primitives for dapps
+    - [ ] Deploying primitives for dapps
 - [x] Preliminary client implementation work 
     - Single client pair, testing on private/public chain 
     - Improving and finishing specs 
-- [ ] Cross client implementation 
+- [x] Cross client implementation 
     - Testing all client combos
     - ACD discussion between client teams
 
