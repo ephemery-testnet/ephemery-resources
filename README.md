@@ -72,7 +72,7 @@ At this moment, most official client releases don't include predefined Ephemery 
 
 Download latest Ephemery parameters from its [release](https://github.com/ephemery-testnet/ephemery-genesis/releases/) and point your client to it like with any custom network. 
 ```
-wget https://github.com/ephemery-testnet/ephemery-genesis/releases/download/ephemery-111/testnet-all.tar.gz
+wget https://github.com/ephemery-testnet/ephemery-genesis/releases/latest/download/testnet-all.tar.gz
 mkdir ephemery && tar -xzf testnet-all.tar.gz -C ephemery
 ```
 Example setup for geth and lighthouse. First initialize geth genesis and then run clients with configuration pointing to downloaded testnet files and variables:
