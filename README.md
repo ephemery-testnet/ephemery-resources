@@ -5,9 +5,6 @@
 
 The objective of this effort is to create the first automatically reset ephemeral Ethereum testnet which would serve as a cross-client testing network without issues stemming from a long-term running history.
 
-> [!WARNING]
-> __Ephemery will activate Pectra hardfork on epoch 10 starting iteration 3943814, February 13 7PM UTC.__ Make sure to upgrade your clients and validators to latest Pectra release candidates! [Read more about the Pectra activation](#pectra).
-
 ## Proposal
 
 An ephemeral testnet is a single network that rolls back to the genesis after a set period of time. This kind of network is focused on short term and heavy testing usecases. The purpose of this is also to avoid problems like insufficient testnet funds, inactive validators, state bloat, and similar issues faced by long-running testnets.
